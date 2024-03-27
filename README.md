@@ -1,12 +1,11 @@
+Not functional curretly!
 # Pokemon Tamagotchi!
 Its a Tamagotchi using pokemon! Make sure to feed them and give them rest if you want them to live and gain experice!
 
 This project provides a very basic/early version of a Tamagotchi in which, as time progresses your pokemon will become hungry and tired. However, if they are in good health, engergetic, and full they will slowly gain exp to level up.
 
 # Getting Started
-Built with HTML, JS, CSS and PokeAPI (https://pokeapi.co/).
-
-No additional software needed to work.
+Built with HTML, JS, CSS, React.
 
 # Usage
 Use as a fun HTML game. Run in your prefered browser. (Known to work in FireFox and Google Chrome).
