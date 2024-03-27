@@ -1,0 +1,170 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://www.pockettactics.com/wp-content/sites/pockettactics/2023/01/Pok%C3%A9mon-wallpapers-5.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  }
+header {
+  aspect-ratio: 5/1;
+  width: 100%;
+  text-align: center;
+  color: #ffde00;
+  font-size: 100%;
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(228, 238, 247, 0.5);
+}
+h1 {
+  padding: 0%;
+  margin: 0%;
+}
+.headImg {
+  height: 20%;
+  width: 20%;
+}
+footer {
+  text-align: center;
+  background-color: rgba(228, 238, 247, 0.5);
+}
+.start_Container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  width: 50%;
+}
+
+progress {
+  width: 90%;
+}
+#exp {
+  align-self: flex-end;
+  width: 100%;
+  flex-grow: 2;
+}
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: bolder;
+}
+#gameClock {
+  padding:0;
+  margin-top: 5%;
+  font-size: 120%;
+  margin-bottom: 1%;
+  align-self: center;
+}
+
+#animationBox{
+  margin-top: 4%;
+  margin-right: 21%;
+  margin-left: 21%;
+  margin-bottom: 0%;
+  padding-bottom: 10%;
+}
+
+.gameContainer{
+  margin: auto;
+  width: 50%;
+
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  align-self: center;
+  font-size: 100%;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3cf48274-a142-4502-8d44-6b9b6e9039a2/d2nuf00-635c55b0-417c-4f1e-bd21-f82255c5f321.png/v1/fill/w_900,h_900/pokewalker_design_by_mrockz_d2nuf00-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvM2NmNDgyNzQtYTE0Mi00NTAyLThkNDQtNmI5YjZlOTAzOWEyXC9kMm51ZjAwLTYzNWM1NWIwLTQxN2MtNGYxZS1iZDIxLWY4MjI1NWM1ZjMyMS5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.7cj03MHXGe6LQUXMi3iF0KRjnDZrElKRNbZZXatXKh0);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size:contain;
+}
+.barContainer {
+  margin-left: 20%;
+  margin-right: 20%;
+  column-count: 3;
+  font-size: 100%;
+  font-weight: bold;
+  text-shadow: #ffde00;
+  padding: 1%;
+}
+
+.lvlText{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#expBox{
+  column-count: 3;
+  display:flex;
+  flex-wrap: nowrap;
+  align-self:flex-end;
+}
+
+
+.statusBars {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  padding: 0%;
+  margin: auto;
+}
+.pokemon_Image {
+  margin-top: 10%;
+  margin-left: 30%;
+  height: 100%;
+  writing-mode: 40%;
+}
+
+#reset {
+  padding: 0%;
+  margin: 5%;
+  margin-top: 2%;
+  width: 20%;
+  height: 100%;
+  align-self: center;
+  font-size: 75%;
+}
+
+#button_container {
+  display: flex;
+  justify-content:space-around;
+  margin-top: 7%;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.button {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  font-size: 100%;
+  font-weight: bold;
+  text-shadow: 2px 1px #ff0000;
+
+}
+
+#feed {
+  margin-top: 0%;
+  margin-left: 0%
+
+}
+
+#longrest {
+  margin-right: 0%;
+}
+
+#nap {
+
+}
+.plusUp{
+  display: block;
+  column-count: 1;
+
+}
+#pokemonSelector {
+  text-transform: capitalize;
+}

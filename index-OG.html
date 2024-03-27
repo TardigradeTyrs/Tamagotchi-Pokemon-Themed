@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/main-styles.css"/>
+  <title>PokeMon Tamagotchi</title>
+</head>
+<header>
+  <h1>Welcome to
+  </br>
+    <img class="headImg" id="pokemon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1024px-International_Pok%C3%A9mon_logo.svg.png"/>
+</br>
+    <img class="headImg" id="tamagotchiLogo" src="https://upload.wikimedia.org/wikipedia/de/thumb/d/d7/Tamagotchi-logo.svg/512px-Tamagotchi-logo.svg.png?20110501153553"/>
+  </h1>
+  <p>Who will you choose?</p>
+</header>
+<body>
+  <div class="start_Container">
+    <label for="nickname">Give your Pokemon a nickname</label>
+  </br>
+    <input type="text" id="nickname" name="nickname" required/>
+  </br>
+    <select id="pokemonSelector" name="Pokemon_Selector">
+      <option value="pikachu">Pikachu</option>
+      <option value="charmander">Charmander</option>
+      <option value="squirtle">Squirtle</option>
+      <option value="bulbasaur">Bulbasaur</option>
+    </select>
+    <button id="pokemonSelectorButton" type="button">Select Pokemon</button>
+  </div>
+
+  <!-- need a container for the fun animation side -->
+  <div class="gameContainer" id="TamagotchiContainer">
+    <div id="gameClock">00:00</div>
+    <!-- need a container for the health bar-->
+    <div class="barContainer">
+      <div class="statusBars" id="healthBar">HP</br>
+        <p id="healthtxt">100/100</p>
+        <progress id="health" value="100" max="100"></progress>
+      </div>
+      <!-- need a container for the sleep bar-->
+      <div class="statusBars" id="sleepBar">Energy
+        <p id="sleeptxt">100/100</p>
+        <progress id="sleep" value="100" max="100"></progress>
+
+      </div>
+      <!-- need a container for the hunger bar-->
+      <div class="statusBars" id="hungerBar">Hunger
+        <p id="hungertxt">100/100</p>
+        <progress id="hunger" value="100" max="100"></progress>
+      </div>
+  </div>
+    <!-- need a container for the animation-->
+    <div id="animationBox">
+      <img
+      class="pokemon_Image"
+      src=""
+      alt="Select a Pokemon" />
+      <div id="expBox">
+        <p class="lvlText" id="currentLevel">exp</p>
+        <progress id="exp" value="0" max="10"></progress>
+        <p class="lvlText" id="nextLevel"></p>
+      </div>
+    </div>
+    <div id="button_container">
+    <button id="feed" class="button" type="button">Feed</button>
+    <button id="nap" class="button" type="button">Nap</button>
+    <button id="longrest" class="button" type="button">Sleep</button>
+    <button id="train" class="button" type="button">Train</button>
+    </div>
+  </br>
+    <button id="reset" class="button" type="button">
+      <div class="button-top">Pick New Pokemon</div>
+      <div class="button-bottom"></div>
+      <div class="button-base"></div>
+    </button>
+  </div>
+
+  <script src="./scripts/Pokemon-Service.js"></script>
+  <script src="scripts/Game-Clock.js"></script>
+  <script src="./scripts/Pokemon-Class.js"></script>
+  <script src="./scripts/Game-Clock.js"></script>
+  <script src="./scripts/Pokemon-Functions.js"></script>
+
+<footer>
+  <p>This website has no Official Pokemon or Tamagotchi Affiliation</p>
+</footer>
+
+
+
+</body>
+</html>
